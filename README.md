@@ -24,7 +24,7 @@ output.onclick = function out() {
 > 주어진 문자열과 일치하는 id 속성을 가진 요소를 찾고, 이를 나타내는 Element 객체의 value 값을 반환함   
 
 ### console.log()?
-> Web Console 창에 메시지를 출력함. <br>
+> Web Console 창에 메시지를 출력함 <br>
 () 안에 console 창에 출력하고 싶은 내용을 적음 <br>   
 윈도우 기준, ```ctrl + shift + j``` 또는 ```F12``` 으로 확인 가능     
 
@@ -39,7 +39,30 @@ pw : 789 login.js:7
 ```
 
 ---
-## Console 창에 결과가 잘 나오지 않을 때
+# Problem 과 Solution   
+
+## Console 창에 결과가 잘 나오지 않을 때?
 > ```.addEventListener("click", myScript)``` 으로도 시도해 보시길!
+
+### git add 취소?
+``` 
+git reset HEAD <file>
+```
+
+### git commit 취소?
+```
+git reset --soft HEAD
+```
+
+### git commit message 변경?
+```
+git commit --amend
+```
+
+### git push 취소?
+```
+git reset HEAD
+// 가장 최근의 commit을 취소
+```
 
 
