@@ -1,4 +1,6 @@
-document.getElementById("output").onclick = function output() {
+const output = document.getElementById("output");
+
+output.onclick = function out() {
     
     let id = document.getElementById("id").value;
     let pw = document.getElementById("pw").value;
