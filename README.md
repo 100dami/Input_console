@@ -44,6 +44,8 @@ pw : 789 login.js:7
 ## Console 창에 결과가 잘 나오지 않을 때?
 > ```.addEventListener("click", myScript)``` 으로도 시도해 보시길!
 
+---
+
 ### git add 취소?
 ``` 
 git reset HEAD <file>
