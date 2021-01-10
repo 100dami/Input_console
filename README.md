@@ -16,7 +16,8 @@ output.onclick = function out() {
 ### onclick과 addEventListener 차이?
 > ```onclick``` 이벤트 핸들러를 두 번 이상 사용한다면, 기존 이벤트 핸들러를 덮어쓰기 때문에 가장 아래에 추가한 핸들러만 제대로 작동함 <br> 
 반면, ```addEventListener```는 기존 이벤트 핸들러를 덮어 쓰지 않고 얼마든지 계속해서 핸들러를 추가해도 모든 핸들러가 정상적으로 작동함 <br>
-**addEventListener는 IE8 이하에서는 작동을 하지 않는다. 그래서 구형 브라우저 지원이 필요하면 onclick을 사용하는 것임**    
+**addEventListener는 IE8 이하에서는 작동을 하지 않는다.** <br>
+**그래서 구형 브라우저 지원이 필요하면 onclick을 사용하는 것임**  
 
 
 ### document.getElementById("id").value?
