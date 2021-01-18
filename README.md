@@ -32,10 +32,6 @@ output.onclick = function out() {
 ```
 id : 다미 login.js:6
 pw : 123 login.js:7
-id : 유선 login.js:6
-pw : 456 login.js:7
-id : 지환 login.js:6
-pw : 789 login.js:7
 ```
 
 ---
