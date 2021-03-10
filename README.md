@@ -34,15 +34,13 @@ id : 다미 login.js:6
 pw : 123 login.js:7
 id : 유선 login.js:6
 pw : 456 login.js:7
-id : 지환 login.js:6
-pw : 789 login.js:7
 ```
 
 ---
 # Problem 과 Solution   
 
 ## Console 창에 결과가 잘 나오지 않을 때?
-> ```.addEventListener("click", myScript)``` 으로도 시도해 보시길!
+> ```.addEventListener("click", myScript)``` 으로도 실행 결과는 똑같으니 시도해 보시길!
 
 ---
 
