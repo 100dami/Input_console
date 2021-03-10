@@ -1,4 +1,4 @@
-# Js 이용해 html에서의 input 값 console에 출력하기
+# input 값 console에 출력하기
 
 ## html 에서 js 파일 linking 하는 방법?
 > ```<script>``` 태그 사용   
